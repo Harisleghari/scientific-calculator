@@ -1,0 +1,45 @@
+.btn-secondary {
+  color: black;
+  background-color: lightgray;
+}
+
+.list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  font-size: 14px;
+}
+
+.btn-group > .btn-secondary.active {
+  background-color: lightgray;
+  border-color: lightgray;
+  color: black;
+  box-shadow: none;
+}
+
+.btn-group > .btn-secondary:not(.active) {
+  background-color: lightgray;
+  border-color: lightgray;
+  color: #c0c0c0;
+}
+
+.btn-group > .btn-blue.active {
+  border-color: lightgray;
+  color: blue;
+}
+
+@media (min-width: 768px) {
+  .seven-cols .col-md-2,
+  .seven-cols .col-sm-2,
+  .seven-cols .col-lg-2 {
+    width: 28.56%;
+    *width: 28.56%;
+  }
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.28%;
+    *width: 14.28%;
+  }
+}
